@@ -233,7 +233,7 @@
     <h1>t<span id="first-o">o</span>-d<span id="second-o">o</span> lists</h1>
     <h2>Overview of your to-do lists</h2>
     <button on:click={toggleAllToDoLists} id="toggle-all" class="{countToDoListsAll > 0 ? '' : 'hide'}" title="Click to toggle all"></button>
-    <input on:keydown={createToDoList} bind:this={input} id="create" class="{countToDoListsAll > 0 ? 'shrink' : ''}" type="text" placeholder="What do you have to do?">
+    <input on:keydown={createToDoList} bind:this={input} id="create" class="{countToDoListsAll > 0 ? 'shrink' : ''}" type="text" placeholder="What should the new to-do list be called?">
   </header>
   <section class="to-do-lists">
     {#if countToDoListsAll > 0}
