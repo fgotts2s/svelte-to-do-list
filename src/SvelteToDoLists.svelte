@@ -325,7 +325,7 @@
     margin: 0 0 0 0.25em;
     width: 0.5em;
     height: 0.5em;
-    background: url('/img/svelte.svg') no-repeat;
+    background: url('/svelte-to-do-list/img/svelte.svg') no-repeat;
   }
   header h2 {
     margin: 0;
